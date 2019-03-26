@@ -1,24 +1,22 @@
-#face {
-    position: relative;
+#clock {
+  position: relative;
+  display: inline-block;
+}
+
+.hand {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #hour {
-    position: absolute;
-    top: 0px;
-    right: 10%;
-    transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 #minute {
-    position: absolute;
-    top: 0px;
-    right: 10%;
-    transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 #second {
-    position: absolute;
-    top: 0px;
-    right: 10%;
-    transform: rotate(0deg);
+  transform: rotate(0deg);
 }
