@@ -14,8 +14,8 @@ function setTime() {
     hrStatus = d.getHours();
     minStatus = d.getMinutes();
     secStatus = d.getSeconds();
-    console.log(`${hrStatus}:${minStatus}:${secStatus}`);
 }
+
 function render() {
     minAndSecMovement(secStatus, secondHand);
     minAndSecMovement(minStatus, minuteHand);
